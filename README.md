@@ -58,7 +58,7 @@ root@hadoop:/code# hdfs dfs -head /user/hduser/output1/part-00000
 root@hadoop:/code# hdfs dfs -head /user/hduser/output2/part-00000
 root@hadoop:/code# hdfs dfs -head /user/hduser/output3/part-00000
 ```
-### Run MRWordCount program on a Hadoop cluster
+#### Run MRWordCount program on a Hadoop cluster
 ```bash
 root@hadoop:/code# $HADOOP_HOME/bin/hadoop jar $HADOOP_HOME/share/hadoop/tools/lib/hadoop-streaming-3.3.4.jar -files MRWordCount.py -input /user/hduser/data/input1.txt -output /user/hduser/output4
 
@@ -66,7 +66,7 @@ root@hadoop:/code# $HADOOP_HOME/bin/hadoop jar $HADOOP_HOME/share/hadoop/tools/l
 
 root@hadoop:/code# $HADOOP_HOME/bin/hadoop jar $HADOOP_HOME/share/hadoop/tools/lib/hadoop-streaming-3.3.4.jar -files MRWordCount.py -input /user/hduser/data/input3.txt -output /user/hduser/output6
 ```
-### Generate the output
+#### Generate the output
  ```bash
 root@hadoop:/code# hdfs dfs -head /user/hduser/output4/part-00000
 root@hadoop:/code# hdfs dfs -head /user/hduser/output5/part-00000
