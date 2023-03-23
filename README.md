@@ -4,7 +4,8 @@ Setting up the Hadoop Docker and accessing Hadoop Distributed File System using 
 ![Hadoop](https://hadoop.apache.org/hadoop-logo.jpg)
 ![Docker](https://avatars.githubusercontent.com/u/5429470?s=200&v=4)
 
-### Install Docker: Download Docker Desktop for your OS. https://www.docker.com/
+### Install Docker
+Download Docker Desktop for your OS. https://www.docker.com/
 
 ### Setup Hadoop pseudo distributed mode dockerized
 ```bash
